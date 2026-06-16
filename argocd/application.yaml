@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/4-learn/devops-config.git
+    repoURL: https://github.com/taiyuhuang591-lang/ArgoCD.git
     targetRevision: HEAD
     path: k8s              # ← ArgoCD 盯這個資料夾
   destination:
