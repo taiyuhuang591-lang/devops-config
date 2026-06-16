@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: devops-demo
-          image: ghcr.io/taiyuhuang591-lang/devops-demo:9b8a9f4bd955746a9566d4793fb7ffa5ab86b54e
+          image: ghcr.io/taiyuhuang591-lang/devops-demo:8535d1fdc21d8d081f453909008f954deefe7ea8
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
