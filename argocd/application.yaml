@@ -6,13 +6,13 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/taiyuhuang591-lang/ArgoCD.git
+    repoURL: https://github.com/taiyuhuang591-lang/devops-config.git
     targetRevision: HEAD
-    path: k8s              # ← ArgoCD 盯這個資料夾
+    path: k8s
   destination:
     server: https://kubernetes.default.svc
     namespace: default
   syncPolicy:
     automated:
-      prune: true          # git 刪了，cluster 也跟著刪
-      selfHeal: true       # 有人手動改 cluster，ArgoCD 會改回來
+      prune: true
+      selfHeal: true
